@@ -3,7 +3,7 @@
     flex-direction: column;
     flex:0.65;
     height: 100vh;
-    background-color: white;
+    background-color: #363A3F;
 }
 
 .chat__header{
@@ -20,7 +20,7 @@
 }
 
 .chat__name{
-    color: black;
+    color: #2F3135;
 }
 
 .chat__input{
@@ -28,7 +28,8 @@
     align-items: center;
     padding: 10px 20px;
     border-top: 1px solid lightgray;
-    background-color: #f5f5f5;
+   /* background-color: #f5f5f5;*/
+    background-color: #2F3135;
 }
 
 .chat__input > form {
@@ -67,10 +68,27 @@
      
     }
 
+    .chat__input >  form > input  {
+        font-size: 12px;
+        padding: 2px;
+    }
+}
 @media all and (max-width: 599px) {
     .chat {
         width: 55%;
     }
+    .chat__input >  form > input  {
+        font-size: 12px;
+        padding: 2px;
+    }
+
+    .chat__input{
+        padding: 5px 10px;
+    }
+
+    .chat__messages{
+        font-size: 15px;
+    }
+    
 }
 
-}

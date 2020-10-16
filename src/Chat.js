@@ -72,7 +72,7 @@ if (chatId) {
                 <input 
                 value={input} 
                 onChange={(e) => setInput(e.target.value)}
-                placeholder='iMessage' 
+                placeholder='owlMessage' 
                 type='text'
                 />
                 <button onClick={sendMessage}>Send Message</button>

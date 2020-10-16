@@ -41,3 +41,13 @@
     background-color: #3cabfa;
     color: white;
 }
+
+@media all and (max-width: 599px){
+    .message.message__sender {
+        font-size: 10px;
+    }
+
+    .message__sender{
+        font-size: 15px;
+    }
+}
