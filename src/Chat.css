@@ -10,7 +10,7 @@
     padding: 20px;
     display: flex;
     justify-content: space-between;
-    border-bottom: 1px solid lightgray;
+    border-bottom: 1px solid #ff6c37;
     background-color: #f5f5f5;
 }
 
@@ -39,6 +39,10 @@
 .chat__messages {
     flex: 1;
     overflow: scroll;
+    background-image: url("https://i.pinimg.com/originals/a5/c2/44/a5c244761a4573da8dd2d55d66ee7b72.jpg");
+    background-repeat: repeat;
+    background-position: center;
+    padding: 30px;
 }
 
 .chat__messages::-webkit-scrollbar {
@@ -59,7 +63,17 @@
 }
 
 .chat__input > form > button {
-    display: none;
+    margin-top: 20px;
+    border-radius: 8px;
+    padding: 5px;
+    border: 1px solid #ff6c37;
+    background-color: gray;
+    color: #ff6c37
+}
+
+.chat__input > form > button:hover {
+    color: #ffffff;
+    background-color: #ff6c37
 }
 
 @media all and (min-width: 600px) and (max-width: 1023px){

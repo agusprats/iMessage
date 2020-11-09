@@ -52,8 +52,8 @@ if (chatId) {
     return (
         <div className="chat">
            <div className="chat__header">
-    <h4><span className="chat__name">{chatName}</span></h4>
-            <strong>Details</strong>
+                <h4><span className="chat__name">{chatName}</span></h4>
+                <strong>Details</strong>
            </div>
 
            <div className="chat__messages">
@@ -72,10 +72,10 @@ if (chatId) {
                 <input 
                 value={input} 
                 onChange={(e) => setInput(e.target.value)}
-                placeholder='owlMessage' 
+                placeholder='Owl Message' 
                 type='text'
                 />
-                <button onClick={sendMessage}>Send Message</button>
+                <button onClick={sendMessage} type="submit">Send Message</button>
             </form>
             <IconButton>
                 <MicNoneIcon className="chat__mic"/>
